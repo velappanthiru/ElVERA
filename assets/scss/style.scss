@@ -1,0 +1,269 @@
+@import "./partial/variables";
+@import "./partial/reset";
+@import "./partial/viewport";
+@import "./header";
+@import "./footer";
+@import "./home/_home-dir";
+
+
+main {
+  overflow-x: hidden;
+}
+#exampleModal {
+  .modal-dialog {
+    max-width: 25rem;
+    .modal-content {
+      background: #172812;
+      border-radius: 1rem;
+      position: relative;
+      .modal-header {
+        border: none !important;
+        .btn-close {
+          width: 1rem;
+          height: 1rem;
+          padding: .25em .25em;
+          margin: 0;
+          margin-left: auto !important;
+          color: #000;
+          background: none !important;
+          border: 0;
+          border-radius: .25rem;
+          opacity: 1;
+          position: absolute;
+          top: 0.5rem;
+          right: 1rem;
+        }
+      }
+      .modal-body {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem 2rem 1.5rem 2rem;
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+        }
+        .sucess-message-wrapper {
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          .success-image {
+            width: 6.875rem;
+            margin: 0 auto;
+            img {
+              margin-top: -1rem;
+            }
+          }
+          button {
+            margin-top: -1rem;
+          }
+        }
+        h6 {
+          margin: 0;
+          font-family: $font-family-1;
+          font-weight: 500;
+          font-size: 1rem;
+          line-height: 1.5;
+          color: #FFFFFF;
+          text-align: center;
+        }
+        .form-group {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          label {
+            font-family: $font-family-1;
+            font-weight: 400;
+            font-size: 0.875rem;
+            line-height: 1.6;
+            color: #FFFFFF;
+          }
+          input {
+            border: 0.063rem solid #797979;
+            outline: none !important;
+            box-shadow: none !important;
+            color: #8D8D8D;
+            font-family: $font-family-1;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.25;
+            padding: 0.75rem 0.5rem;
+            min-height: 2.5rem;
+            border-radius: 0.5rem;
+            background-color: transparent !important;
+            &::placeholder {
+              color: #8D8D8D;
+              font-family: $font-family-1;
+              font-size: 0.875rem;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 1.25;
+            }
+          }
+        }
+        button {
+          width: fit-content;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+.common-page-section {
+  padding-top: 12rem;
+  padding-bottom: 4rem;
+  position: relative;
+  z-index: 1;
+
+  .common-page-container {
+    max-width: 80rem;
+    margin: 0 auto;
+    p {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #FFFFFF;
+      text-align: justify;
+      span {
+        font-weight: 700;
+      }
+    }
+    a {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: $theme-clr;
+      text-align: justify;
+      span {
+        font-weight: 700;
+      }
+    }
+    .page-title {
+      h1 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 1;
+        text-align: center;
+        color: $theme-clr;
+        @media screen and (max-width:567px) {
+          font-size: 2rem;
+        }
+      }
+    }
+    .sections-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+      margin-top: 3rem;
+      .section {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      h2, h3, h4,h5,h6 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 1.5rem;
+        line-height: 1;
+        color: $theme-clr;
+        margin: 1rem 0 !important;
+        span {
+          @media screen and (min-width:992px) {
+            margin-left: 7.6rem;
+          }
+        }
+      }
+      a {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: $theme-clr;
+        text-align: justify;
+        span {
+          font-weight: 700;
+        }
+      }
+      p {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #FFFFFF;
+        text-align: justify;
+        span {
+          font-weight: 700;
+        }
+      }
+
+      ul,ol {
+        padding: 0;
+        padding-left: 3rem;
+        li {
+          margin: 0;
+          font-size: 1rem;
+          line-height: 1.5;
+          color: #FFFFFF;
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+      margin-top: 3rem;
+      .content-card {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        .content-card-title {
+          h6 {
+            margin: 0;
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 1;
+            color: $theme-clr;
+            span {
+              @media screen and (min-width:992px) {
+                margin-left: 7.6rem;
+              }
+            }
+          }
+        }
+        .content-body {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          p {
+            margin: 0;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #FFFFFF;
+            text-align: justify;
+            span {
+              font-weight: 700;
+            }
+          }
+          ul {
+            padding: 0;
+            padding-left: 3rem;
+            li {
+              margin: 0;
+              font-size: 1rem;
+              line-height: 1.5;
+              color: #FFFFFF;
+              span {
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

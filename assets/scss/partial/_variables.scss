@@ -1,0 +1,20 @@
+
+// ==== google font Outfit ====
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+// Fonts
+$font-family: "Outfit", sans-serif;
+$font-family-1: "Inter", sans-serif;
+
+// Colors
+$primary-bg: #000000; // pure black background
+$secondary-bg: #000000; // deep gray for containers/cards
+$theme-clr: #fff;
+$white-clr: #FFFFFF;
+$gray-clr: #CCCCCC; // slightly dimmed white for paragraphs
+$secondary-gray-clr: #888888; // muted gray for minor text
+$bg-linear: linear-gradient(90deg, #ffffff, #f1f5f9); // pure white to light gray
+
