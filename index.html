@@ -969,10 +969,29 @@
   <script src="./assets/js/script.js"></script>
 
   <script>
-    $(document).ready(async function () {
-      AOS.init();
+    function handleAOS() {
+      if (window.innerWidth < 991) {
+        AOS.refreshHard(); // Reset AOS
+        document.querySelectorAll('[data-aos]').forEach(el => {
+          el.removeAttribute('data-aos');
+          el.removeAttribute('data-aos-delay');
+          el.removeAttribute('data-aos-duration');
+        });
+      } else {
+        AOS.init({
+          duration: 800,
+          once: true,
+        });
+      }
+    }
+
+    handleAOS();
+
+    window.addEventListener('resize', () => {
+      handleAOS();
     });
   </script>
+
 
 </body>
 </html>
