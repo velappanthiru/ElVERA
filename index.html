@@ -9,10 +9,15 @@
   <!-- bootstrap cdn link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./public/css/style.min.css">
 </head>
 <body>
-
+  <div class="shades"></div>
+  <div class="shades"></div>
+  <div class="shades"></div>
+  <div class="shades"></div>
+  <div class="shades"></div>
   <header>
     <div class="container-fluid">
       <nav aria-label="Global">
@@ -78,7 +83,6 @@
   </div>
 
   <main>
-    <div id="tsparticles"></div>
 
     <section class="banner-section" id="home">
       <div class="container-fluid p-0">
@@ -192,7 +196,7 @@
             </h1>
           </div>
           <div class="service-wrapper">
-            <div class="service-card">
+            <div class="service-card" data-aos="fade-down-right" data-aos-duration="1500">
               <div class="icon">
                 <i class="fas fa-brain"></i>
               </div>
@@ -207,7 +211,7 @@
               </div>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-aos="zoom-in" data-aos-duration="1500">
               <div class="icon">
                 <i class="fas fa-robot"></i>
               </div>
@@ -222,7 +226,7 @@
               </div>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-aos="fade-down-left" data-aos-duration="1500">
               <div class="icon">
                 <i class="fas fa-network-wired"></i>
               </div>
@@ -237,7 +241,7 @@
               </div>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-aos="fade-down-right" data-aos-duration="1500">
               <div class="icon">
                 <i class="fas fa-code"></i>
               </div>
@@ -252,7 +256,7 @@
               </div>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-aos="zoom-in" data-aos-duration="1500">
               <div class="icon">
                 <i class="fas fa-chart-line"></i>
               </div>
@@ -267,7 +271,7 @@
               </div>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-aos="fade-down-left" data-aos-duration="1500">
               <div class="icon">
                 <i class="fas fa-user-astronaut"></i>
               </div>
@@ -303,21 +307,21 @@
             </p>
           </div>
           <div class="our-core-wrapper">
-            <div class="our-core-card">
+            <div class="our-core-card" data-aos="fade-right" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="content">
                 <h4>Risk, Cyber & Compliance</h4>
                 <p>We help you stay ahead of threats and regulations by building systems that protect your data, your people, and your reputation — while giving you the confidence to scale.</p>
               </div>
             </div>
-            <div class="our-core-card">
+            <div class="our-core-card" data-aos="zoom-in" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="content">
                 <h4>Deals & Transactions</h4>
                 <p>Whether you’re buying, merging, or restructuring, we help you find the upside, reduce the noise, and execute with clarity. From planning through integration, we help you create value that lasts.</p>
               </div>
             </div>
-            <div class="our-core-card">
+            <div class="our-core-card" data-aos="fade-left" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="content">
                 <h4>Strategy & Growth Planning</h4>
@@ -326,7 +330,7 @@
                 </p>
               </div>
             </div>
-            <div class="our-core-card">
+            <div class="our-core-card" data-aos="fade-right" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="content">
                 <h4>Finance & Operational Clarity</h4>
@@ -335,7 +339,7 @@
                 </p>
               </div>
             </div>
-            <div class="our-core-card">
+            <div class="our-core-card" data-aos="zoom-out" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="content">
                 <h4>Customer Experience & Digital Journeys</h4>
@@ -344,7 +348,7 @@
                 </p>
               </div>
             </div>
-            <div class="our-core-card">
+            <div class="our-core-card" data-aos="fade-left" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="content">
                 <h4>Technology Integration & Transformation</h4>
@@ -353,7 +357,7 @@
                 </p>
               </div>
             </div>
-            <div class="our-core-card">
+            <div class="our-core-card" data-aos="fade-right" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="content">
                 <h4>Operational Excellence</h4>
@@ -362,14 +366,14 @@
                 </p>
               </div>
             </div>
-            <div class="our-core-card">
+            <div class="our-core-card" data-aos="zoom-in" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="content">
                 <h4>Workforce & People Strategy</h4>
                 <p>Your team is your greatest investment. We help you attract the right talent, build a healthy culture, and reimagine HR to support a workforce that’s ready for tomorrow.</p>
               </div>
             </div>
-            <div class="our-core-card">
+            <div class="our-core-card" data-aos="fade-left" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="content">
                 <h4>
@@ -399,7 +403,7 @@
             </h1>
           </div>
           <div class="industry-solution-wrapper mt-5">
-            <div class="industry-solution-card">
+            <div class="industry-solution-card" data-aos="fade-right" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="shades bottom"></div>
               <div class="content">
@@ -428,7 +432,7 @@
                 </div>
               </div>
             </div>
-            <div class="ms-auto industry-solution-card">
+            <div class="ms-auto industry-solution-card" data-aos="fade-left" data-aos-duration="1500">
               <div class="shades left"></div>
               <div class="shades right-bottom "></div>
               <div class="content">
@@ -457,7 +461,7 @@
                 </div>
               </div>
             </div>
-            <div class="industry-solution-card">
+            <div class="industry-solution-card" data-aos="fade-right" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="shades bottom "></div>
               <div class="content">
@@ -486,7 +490,7 @@
                 </div>
               </div>
             </div>
-            <div class="ms-auto industry-solution-card">
+            <div class="ms-auto industry-solution-card" data-aos="fade-left" data-aos-duration="1500">
               <div class="shades left"></div>
               <div class="shades right-bottom "></div>
               <div class="content">
@@ -516,7 +520,7 @@
                 </div>
               </div>
             </div>
-            <div class="industry-solution-card">
+            <div class="industry-solution-card" data-aos="fade-right" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="shades bottom "></div>
               <div class="content">
@@ -546,7 +550,7 @@
                 </div>
               </div>
             </div>
-            <div class="ms-auto industry-solution-card">
+            <div class="ms-auto industry-solution-card" data-aos="fade-left" data-aos-duration="1500">
               <div class="shades left"></div>
               <div class="shades right-bottom"></div>
               <div class="content">
@@ -594,7 +598,7 @@
             </h1>
           </div>
           <div class="trust-us-card-wrapper">
-            <div class="trust-card">
+            <div class="trust-card" data-aos="fade-up" data-aos-delay="0">
               <div class="icon">
                 <!-- Banking & Finance -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
@@ -604,7 +608,7 @@
               <span>Banking & Finance</span>
             </div>
 
-            <div class="trust-card">
+            <div class="trust-card" data-aos="fade-up" data-aos-delay="100">
               <div class="icon">
                 <!-- Manufacturing -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
@@ -614,7 +618,7 @@
               <span>Manufacturing</span>
             </div>
 
-            <div class="trust-card">
+            <div class="trust-card" data-aos="fade-up" data-aos-delay="200">
               <div class="icon">
                 <!-- Retail & E-commerce -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
@@ -625,7 +629,7 @@
               <span>Retail & E-commerce</span>
             </div>
 
-            <div class="trust-card">
+            <div class="trust-card" data-aos="fade-up" data-aos-delay="300">
               <div class="icon">
                 <!-- Logistics -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
@@ -636,7 +640,7 @@
               <span>Logistics</span>
             </div>
 
-            <div class="trust-card">
+            <div class="trust-card" data-aos="fade-up" data-aos-delay="0">
               <div class="icon">
                 <!-- Healthcare -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
@@ -647,7 +651,7 @@
               <span>Healthcare</span>
             </div>
 
-            <div class="trust-card">
+            <div class="trust-card" data-aos="fade-up" data-aos-delay="100">
               <div class="icon">
                 <!-- Technology -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
@@ -658,7 +662,7 @@
               <span>Technology</span>
             </div>
 
-            <div class="trust-card">
+            <div class="trust-card" data-aos="fade-up" data-aos-delay="200">
               <div class="icon">
                 <!-- Consumer Electronics -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
@@ -669,7 +673,7 @@
               <span>Consumer Electronics</span>
             </div>
 
-            <div class="trust-card">
+            <div class="trust-card" data-aos="fade-up" data-aos-delay="300">
               <div class="icon">
                 <!-- Startups -->
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
@@ -699,7 +703,7 @@
             </h1>
           </div>
           <div class="engagement-modals-card-wrapper">
-            <div class="engagement-modals-card">
+            <div class="engagement-modals-card" data-aos="fade-left" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -715,7 +719,7 @@
                 </p>
               </div>
             </div>
-            <div class="engagement-modals-card">
+            <div class="engagement-modals-card" data-aos="zoom-in" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -731,7 +735,7 @@
                 </p>
               </div>
             </div>
-            <div class="engagement-modals-card engagement-card-full">
+            <div class="engagement-modals-card engagement-card-full" data-aos="fade-right" data-aos-duration="1500">
               <div class="shades"></div>
               <div class="icon">
                 <svg fill="currentColor" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -777,7 +781,7 @@
           <div class="roadmap-wrapper">
             <div class="roadmap-card">
               <div class="left-wrapper"></div>
-              <div class="right-wrapper">
+              <div class="right-wrapper" data-aos="fade-left" data-aos-duration="1500">
                 <div class="content-card">
                   <div class="shades"></div>
                   <div class="steps-wrapper">
@@ -793,7 +797,7 @@
               </div>
             </div>
             <div class="roadmap-card">
-              <div class="left-wrapper">
+              <div class="left-wrapper" data-aos="fade-right" data-aos-duration="1500">
                 <div class="content-card">
                   <div class="steps-wrapper">
                     <div class="animated-gradient"></div>
@@ -812,7 +816,7 @@
             <div class="roadmap-card">
               <div class="left-wrapper order-2 order-md-1">
               </div>
-              <div class="right-wrapper order-1 order-md-2">
+              <div class="right-wrapper order-1 order-md-2" data-aos="fade-left" data-aos-duration="1500">
                 <div class="content-card">
                   <div class="shades"></div>
                   <div class="steps-wrapper">
@@ -828,7 +832,7 @@
               </div>
             </div>
             <div class="roadmap-card">
-              <div class="left-wrapper">
+              <div class="left-wrapper" data-aos="fade-right" data-aos-duration="1500">
                 <div class="content-card">
                   <div class="steps-wrapper">
                     <div class="animated-gradient"></div>
@@ -960,17 +964,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <!-- jquery cdn link -->
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-  <!-- first include any tsParticles plugin needed -->
-  <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- then include jquery wrapper -->
-  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/jquery"></script>
   <script src="./assets/js/script.js"></script>
 
   <script>
-
     $(document).ready(async function () {
-
+      AOS.init();
     });
   </script>
 
