@@ -35,6 +35,7 @@ header {
         width: auto;
         height: 2rem;
         object-fit: contain;
+        filter: invert(0.25);
       }
     }
     .menu-wrapper {
@@ -111,6 +112,8 @@ header {
           width: 6.5rem;
           height: auto;
           object-fit: contain;
+          filter: invert(0.25);
+
           @media screen and (max-width: 360px) {
             width: 8rem;
           }
