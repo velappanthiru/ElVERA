@@ -90,4 +90,8 @@
   top: -11px;
   width: 6.25rem;
   z-index: -1;
+  /* Force hardware acceleration for Safari */
+  transform: translateZ(0);
+  will-change: transform;
+
 }
