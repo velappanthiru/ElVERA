@@ -84,10 +84,12 @@
             Comprehensive AI and development services tailored to your business needs
           </h1>
         </div>
+
+
         <div class="service-wrapper">
           <div class="service-card" data-aos="fade-down-right" data-aos-duration="1500">
             <div class="icon">
-              <i class="fas fa-brain"></i>
+              <i class="fa-solid fa-brain"></i>
             </div>
             <div class="content">
               <h4>Strategic AI Consulting</h4>
@@ -102,7 +104,7 @@
 
           <div class="service-card" data-aos="zoom-in" data-aos-duration="1500">
             <div class="icon">
-              <i class="fas fa-robot"></i>
+              <i class="fa-solid fa-robot"></i>
             </div>
             <div class="content">
               <h4>AI powered App Development</h4>
@@ -117,7 +119,7 @@
 
           <div class="service-card" data-aos="fade-down-left" data-aos-duration="1500">
             <div class="icon">
-              <i class="fas fa-network-wired"></i>
+              <i class="fa-solid fa-network-wired"></i>
             </div>
             <div class="content">
               <h4>Multi chain Solutions</h4>
@@ -132,7 +134,7 @@
 
           <div class="service-card" data-aos="fade-down-right" data-aos-duration="1500">
             <div class="icon">
-              <i class="fas fa-code"></i>
+              <i class="fa-solid fa-code"></i>
             </div>
             <div class="content">
               <h4>Software Development</h4>
@@ -147,7 +149,7 @@
 
           <div class="service-card" data-aos="zoom-in" data-aos-duration="1500">
             <div class="icon">
-              <i class="fas fa-chart-line"></i>
+              <i class="fa-solid fa-chart-line"></i>
             </div>
             <div class="content">
               <h4>Machine Learning</h4>
@@ -162,7 +164,7 @@
 
           <div class="service-card" data-aos="fade-down-left" data-aos-duration="1500">
             <div class="icon">
-              <i class="fas fa-user-astronaut"></i>
+              <i class="fa-solid fa-user-astronaut"></i>
             </div>
             <div class="content">
               <h4>AI Agents Development</h4>
@@ -175,6 +177,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
