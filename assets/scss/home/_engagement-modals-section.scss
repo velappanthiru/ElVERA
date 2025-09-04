@@ -25,7 +25,12 @@
         position: relative;
         z-index: 1;
         overflow: hidden;
-
+        &.card-full {
+          width: calc(50% - 1.5rem);
+          @media screen and (max-width:767px) {
+            width: 100% !important;
+          }
+        }
         @media screen and (max-width:1024px) {
           width: calc(50% - 1.5rem);
           &.engagement-card-full {

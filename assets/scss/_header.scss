@@ -17,7 +17,6 @@ header {
     justify-content: space-between;
     position: relative;
     z-index: 1;
-    overflow: hidden;
     max-width: 70rem;
     margin: 0 auto;
     border: 0.063rem solid transparent;
@@ -35,7 +34,7 @@ header {
         width: auto;
         height: 2rem;
         object-fit: contain;
-        filter: invert(0.25);
+
       }
     }
     .menu-wrapper {
@@ -52,6 +51,31 @@ header {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        svg {
+          width: 1.25rem;
+          height: 1.25rem;
+          margin-top: 0.2rem;
+        }
+      }
+      .dropdown-menu {
+        border: 0.063rem solid rgba(255, 255, 255, 0.223);
+        border-radius: 0.75rem;
+        background: #000;
+        margin-top: 1.5rem !important;
+        li {
+          a,button {
+            display: block;
+            padding: 0.5rem 0.75rem;
+            color: $white-clr;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
       }
     }
 
@@ -112,7 +136,7 @@ header {
           width: 6.5rem;
           height: auto;
           object-fit: contain;
-          filter: invert(0.25);
+
 
           @media screen and (max-width: 360px) {
             width: 8rem;
@@ -146,6 +170,11 @@ header {
             align-items: center;
             gap: 0.75rem;
             color: $gray-clr;
+            svg {
+              width: 1.25rem;
+              height: 1.25rem;
+              margin-top: 0.2rem;
+            }
             &.active {
               color: $white-clr !important;
               font-weight: 700 !important;
@@ -159,6 +188,22 @@ header {
                 border-radius: 0.25rem;
                 background: $theme-clr;
                 bottom: -0.5rem;
+              }
+            }
+          }
+          .dropdown-menu {
+            position: unset !important;
+            transform: none !important;
+            background-color: transparent;
+            li {
+              a,button {
+                display: block;
+                padding: 0.5rem 0.75rem;
+                color: $white-clr;
+                font-size: 0.875rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
               }
             }
           }

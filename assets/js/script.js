@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
   // Get the current year
   const currentYear = new Date().getFullYear();
   // Set the year dynamically
@@ -39,12 +40,14 @@ $(document).ready(function () {
   $("#close-icon").on("click", function () {
     $("#mobile-menu-wrapper").removeClass("is_open");
   })
-  $("#mobile-menu-wrapper .mobile-nav-wrapper ul li").on("click", function () {
+  $("#mobile-menu-wrapper .mobile-nav-wrapper ul clickToClose").on("click", function () {
     $("#mobile-menu-wrapper").removeClass("is_open");
   })
 
   $("#mobile-menu-wrapper .mobile-nav-wrapper .btn-wrapper button").on("click", function () {
     $("#mobile-menu-wrapper").removeClass("is_open");
   })
+
+
 
 });

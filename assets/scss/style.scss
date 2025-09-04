@@ -268,3 +268,19 @@ main {
     }
   }
 }
+
+
+.pt-8 {
+  padding-top: 8rem !important;
+}
+
+#particles-container {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
